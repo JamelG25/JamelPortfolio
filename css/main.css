@@ -19,3 +19,11 @@ header{
     margin: auto;
     border-bottom: 1px solid #EEEEEE;
 }
+
+#brand{
+    float: left;
+    line-height: 50px;
+    color: #E5DAC0;
+    font-size: 25px;
+    font-weight: bolder;
+}
