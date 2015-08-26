@@ -55,4 +55,27 @@ nav li:last-child a{
     height: 100%;
     position: absolute;
     background: #CB4943;
+    left: -240px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.menu-icon{
+    padding: 10px 20px;
+    background: #CB4943;
+    color: #00A5CC;
+    cursor: pointer;
+    float: right;
+    margin-top: 4px;
+}
+
+#menuToggle{
+    display: none;
+}
+#menuToggle:checked ~ .menu{
+    position: absolute;
+    left: 0;
 }
