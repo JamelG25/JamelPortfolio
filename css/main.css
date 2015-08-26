@@ -2,13 +2,16 @@
     padding: 0;
     margin: 0;
 }
+
 body{
     font-family: sans-serif;
 }
+
 a{
     text-decoration: none;
     color: #00A5CC;
 }
+
 li{
     list-style-type: none;
 }
@@ -26,4 +29,19 @@ header{
     color: #E5DAC0;
     font-size: 25px;
     font-weight: bolder;
+}
+
+nav{
+    width: 100%;
+    text-align: center;
+}
+
+nav a{
+    display: block;
+    padding: 15px 0;
+    border-bottom: 1px solid crimson;
+}
+
+nav li:last-child a{
+    border-bottom: none;
 }
