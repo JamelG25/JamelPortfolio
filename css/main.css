@@ -39,9 +39,20 @@ nav{
 nav a{
     display: block;
     padding: 15px 0;
-    border-bottom: 1px solid crimson;
+    border-bottom: 1px solid #535353;
 }
 
+nav a:hover{
+    background: #CFC8C8;
+    color: #000;
+}
 nav li:last-child a{
     border-bottom: none;
+}
+/*-------------------------*/
+.menu{
+    width: 240px;
+    height: 100%;
+    position: absolute;
+    background: #CB4943;
 }
