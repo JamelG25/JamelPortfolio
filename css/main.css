@@ -80,3 +80,8 @@ nav li:last-child a{
     position: absolute;
     left: 0;
 }
+#banner{
+    width: 100%;
+    height: 1000px;
+    position: fixed;
+}
