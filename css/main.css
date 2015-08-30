@@ -88,5 +88,7 @@ nav li:last-child a{
     background: #707070;
 }
 #content{
+    width: 100%;
+    position: relative;
 
 }
