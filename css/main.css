@@ -94,3 +94,7 @@ nav li:last-child a{
     background: #ebebeb;
     height: 1500px;
 }
+
+.slide{
+    width: 100%;
+}
